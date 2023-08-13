@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddy Talk! - Created by Sohan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <!-- Linking my Font Awesome Kit  -->
+    <script src="https://kit.fontawesome.com/5b9b876992.js" crossorigin="anonymous"></script>
+    <!-- Lets make it Responsive -->
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="css/phone.css"> 
+</head>
+
+<body>
+    <div id="main-container">
+
+
+        <div id="logo">
+            <!-- <a href="/"><img src="logo-dark-mode.png" alt="Sohan's Creation" id="chatLogo"></a> -->
+            <a href="/"><img src="logo-light-mode.png" alt="Sohan's Creation" id="chatLogo"></a>
+        </div>
+
+        <div id="section-1">
+            <div class="container">
+                <!-- <div class="left">I am left. Sohan hi</div>
+                <div class="right">I am right. Sohan hi</div> -->
+
+            </div>
+
+            <form action="#" id="send-container">
+                <input type="text" name="messageInp" id="messageInp">
+                <button class="btn" type="submit"><i class="fa-solid fa-paper-plane" id="send-icon"></i></button>
+            </form>
+        </div>
+
+        <div id="light-dark-mode">
+            <img src="moon-solid.svg" id="moon-icon" alt="Not available">
+            <!-- <img src="sun-solid.svg" id="moon-icon" class="sun-icon" alt="Not available"> -->
+        </div>
+    </div>
+</body>
+
+</html>

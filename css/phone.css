@@ -1,0 +1,38 @@
+#main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    width: 100%;
+    text-align: center;
+    height: 24vh;
+}
+
+#chatLogo{
+    width: 35%;
+    margin-top: -4%;
+}
+
+#section-1{
+    margin-left: 13%;
+}
+
+.container{
+    margin-top: 9px;
+}
+
+#light-dark-mode{
+    
+    font-size: 2rem;
+    margin-right: 67px;
+    margin-top: -108%;
+    width: 100%;
+
+}
+
+#moon-icon{
+    width: 5%;
+}
